@@ -1,0 +1,46 @@
+ul>li{
+        display: inline-block;
+        padding: 3%;
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black;
+         }
+ul>li:hover{
+       color:orchid;
+}
+.container{
+    background-color:red;
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+}
+.homepage{
+    background-color:black;
+    color:lightskyblue;
+}
+#About{
+    height: 100vh;
+}
+.menucardpage{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 10px;
+    row-gap: 30px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: magenta;
+    text-align: center;
+}
+#menucard{
+    height: 100vh;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.HznPkK2Ke75ldyMne9WtUAHaEK&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menucardpage:hover{
+    color: lightseagreen;
+}
+body{
+    background-color: black;
+}
